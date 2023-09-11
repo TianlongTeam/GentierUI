@@ -1,0 +1,16 @@
+QHeaderView::section:horizontal {background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #616161, stop: 0.5 #505050,stop: 0.6 #434343, stop:1 #656565);color: white;height: 30px;font: bold 12px;padding-left: 4px;border: 1px solid #6c6c6c;}
+QTableView {selection-background-color: qlineargradient(spread:reflect, x1:1, y1:0.766091, x2:1, y2:0, stop:0.340909 rgba(72, 155, 46, 205), stop:1 rgba(255, 255, 255, 255));}
+QScrollBar:vertical {border: 0px; background: rgb(220,240,255); width: 40px;margin: 40px 0px 40px 0px;}
+QScrollBar::add-line:vertical {border:0px;image: url(:/png/arrow_down);background: rgb(220,240,255);height: 40px;subcontrol-position: bottom;subcontrol-origin: margin;}
+QScrollBar::sub-line:vertical {border:0px;image: url(:/png/arrow_up);background: rgb(220,240,255);height: 40px;subcontrol-position: top;subcontrol-origin: margin;}
+QScrollBar::handle:vertical{image: url(:/png/scrollp);background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #616161, stop: 0.5 #505050,stop: 0.6 #434343, stop:1 #656565);border: 0px solid grey;min-height: 30px;}
+QGroupBox::indicator {width:25px;height:25px;}
+QGroupBox::indicator:unchecked {image: url(:/png/checkbox_unchecked);}
+QGroupBox::indicator:checked {image: url(:/png/checkbox_checked);}
+QGroupBox::title{subcontrol-origin: margin;subcontrol-position: top left;top:0px;left:5px;margin-left:0px;padding: 0 3px;}
+QCheckBox::indicator {width: 25px;height: 25px;}
+QCheckBox::indicator:unchecked {image: url(:/png/checkbox_unchecked);}
+QCheckBox::indicator:checked {image: url(:/png/checkbox_checked);}
+QRadioButton::indicator {width: 25px;height: 25px;}
+QRadioButton::indicator::unchecked {image: url(:/png/radiobutton_unchecked);}
+QRadioButton::indicator::checked {image: url(:/png/radiobutton_checked);}

@@ -1,0 +1,65 @@
+QScrollBar:vertical {border: 1px; width: 40px;margin: 40px 0px 40px 0px;}
+QScrollBar::add-line:vertical {border:0px; image: url(:/png/arrow_down);background: rgb(239,235,231);height: 35px;subcontrol-position: bottom;subcontrol-origin: margin;}
+QScrollBar::sub-line:vertical {border:0px; image: url(:/png/arrow_up);background: rgb(239,235,231);height: 35px;subcontrol-position: top;subcontrol-origin: margin;}
+
+QRadioButton::indicator {width: 25px;height: 25px;}
+QRadioButton::indicator::unchecked {image: url(:/png/radiobutton_unchecked);}
+QRadioButton::indicator::checked {image: url(:/png/radiobutton_checked);}
+
+QTextEdit QScrollBar:vertical{
+    width: 30px;margin: 30px 0px 30px 0px;
+}
+QTextEdit QScrollBar::add-line:vertical {
+    border:0px; image: url(:/png/arrow_down);background: rgb(239,235,231);height: 30px;subcontrol-position: bottom;subcontrol-origin: margin;
+}
+QTextEdit QScrollBar::sub-line:vertical {
+    border:0px; image: url(:/png/arrow_up);background: rgb(239,235,231);height: 30px;subcontrol-position: top;subcontrol-origin: margin;
+}
+
+
+QDateEdit::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+
+    width: 40px;
+    height: 40px;
+    border-image: url(:/png/arrow_up);
+    border-width: 1px;
+}
+QDateEdit::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+
+    width: 40px;
+    height: 40px;
+    border-image: url(:/png/arrow_down);
+    border-width: 1px;
+    border-top-width: 0;
+}
+QDateTimeEdit::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+
+    width: 40px;
+    height: 40px;
+    border-image: url(:/png/arrow_up);
+    border-width: 1px;
+}
+QDateTimeEdit::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+
+    width: 40px;
+    height: 40px;
+    border-image: url(:/png/arrow_down);
+    border-width: 1px;
+    border-top-width: 0;
+}
+
+QHeaderView::down-arrow {
+    image: url(:/png/movedown);
+}
+
+QHeaderView::up-arrow {
+    image: url(:/png/moveup);
+}
